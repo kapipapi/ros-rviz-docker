@@ -20,3 +20,8 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.
 `xhost +local:docker`
 
 `docker run -it --rm --privileged --net=host --env=NVIDIA_VISIBLE_DEVICES=all --env=NVIDIA_DRIVER_CAPABILITIES=all --env=DISPLAY --env=QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 rviz_c /bin/bash`
+
+## Create empty world (in next terminal)
+`docker build -t rviz_c .`
+
+`rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map world 5`
