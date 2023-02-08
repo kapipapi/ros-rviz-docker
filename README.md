@@ -1,7 +1,7 @@
 # ros-rviz-docker
 
 ## Install Docker
-docker installation path
+https://docs.docker.com/engine/install/ubuntu/
 
 ## Install Nvidia Docker Drivers
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
