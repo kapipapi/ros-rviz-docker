@@ -2,11 +2,7 @@
 
 This is for **Ubuntu 18.04.6 LTS**
 
-## Install Docker
-https://docs.docker.com/engine/install/ubuntu/
-`sudo snap install docker`
-
-## Install Nvidia Docker Drivers
+## Install Docker + Nvidia Docker Drivers
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
 
 ## Try to launch
