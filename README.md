@@ -1,5 +1,7 @@
 # ros-rviz-docker
 
+This is for **Ubuntu 18.04.6 LTS**
+
 ## Install Docker
 https://docs.docker.com/engine/install/ubuntu/
 `sudo snap install docker`
